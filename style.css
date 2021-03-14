@@ -8,3 +8,10 @@ body {
   /*font-family:'Didot';*/
   font-size: 12pt;
 }
+
+a {
+  color: #134F5C;
+  /*color: #6AA84F;*/
+  background-color: transparent;
+  text-decoration: none;
+}
