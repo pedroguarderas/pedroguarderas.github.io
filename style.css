@@ -1,6 +1,10 @@
-p {
-  margin-top: 100px;
-  margin-bottom: 100px;
+body {
+  margin-top: 15pt;
+  margin-bottom: 15pt;
   margin-right: 25%;
   margin-left: 25%;
+  text-align:justify;
+  font-family:'monospace';
+  /*font-family:'Didot';*/
+  font-size: 12pt;
 }
