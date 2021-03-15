@@ -16,8 +16,23 @@ a {
   text-decoration: none;
 }
 
+.amymenu {
+  /*width: 100pt;*/
+  /*height: 0px;*/
+  color: #134F5C;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: left;
+}
 
 .mymenu {
   /*background-color: #4CAF50;*/
-  float: right;
+  /*background-color: #333;*/
+  /*overflow: hidden;*/
+  max-width: 1000px;
+  display: inline;
+  justify-content: space-between;
+  margin: 0 0;
+  float: right;  
+  padding: 0px 33pt;
 }
