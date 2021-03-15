@@ -6,7 +6,7 @@ body {
   text-align:justify;
   font-family:'monospace';
   /*font-family:'Didot';*/
-  font-size: 12pt;
+  font-size: 11pt;
 }
 
 a {
@@ -14,4 +14,10 @@ a {
   /*color: #6AA84F;*/
   background-color: transparent;
   text-decoration: none;
+}
+
+
+.mymenu {
+  /*background-color: #4CAF50;*/
+  float: right;
 }
