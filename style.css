@@ -22,17 +22,17 @@ a {
   color: #134F5C;
   background-color: transparent;
   text-decoration: none;
-  text-align: left;
+  /*text-align: left;*/
 }
 
 .mymenu {
   /*background-color: #4CAF50;*/
   /*background-color: #333;*/
   /*overflow: hidden;*/
-  max-width: 1000px;
-  display: inline;
-  justify-content: space-between;
-  margin: 0 0;
+  /*max-width: 1000px;*/
+  /*display: inline;*/
+  /*justify-content: space-between;*/
+  /*margin: 0 0;*/
   float: right;  
-  padding: 0px 33pt;
+  padding: 0pt 11pt;
 }
