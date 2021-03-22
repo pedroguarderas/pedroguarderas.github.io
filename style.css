@@ -38,8 +38,9 @@ a {
 }
 
 .footer{ 
-  position: fixed;     
-  text-align: left;    
+  position: absolute; 
+  right: 23%;    
+  text-align: right;    
   bottom: 0px; 
   width: 100%;
 } 
