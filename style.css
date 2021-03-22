@@ -36,3 +36,10 @@ a {
   float: right;  
   padding: 0pt 11pt;
 }
+
+.footer{ 
+  position: fixed;     
+  text-align: left;    
+  bottom: 0px; 
+  width: 100%;
+} 
