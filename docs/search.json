@@ -1,45 +1,5 @@
 [
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "Introduction\nAbout me: My interests of research are focused in two dissimilar subjects.\n\nI am interested in the emerging interactions between optimization and geometry.\nI am interested in the conception of actuarial models specifically looking for new mathematical methods for the study of pension funds.\n\nThe first is my main research subject, I started to work designing mathematical models where I applied in several cases optimization methods; I was focused to only employ well know results to the estimation of complex statistical models, however my research gradually changed from applications to theoretical problems and fundamental consequences impacting another areas in Mathematics, in particular I give special attention to the geometrical interpretations of optimization methods and the computation and design of new invariants related to problems in geometry, in particular I am interested in enumeration problems.\nTime ago, I decided to bifurcate the path of my career as mathematician; as consequence my second research interest emerged, during this time I also gained a good and quite unique experience working as an actuary. In these years, I concentrated a good part of my energy to research, conceive, design, integrate and implement several mathematical models with in applications in insurance and finance. I contributed to the implementation of several valuation models for pension funds, and several other products inside the insurance industry.\nMy work experience as mathematician has been related to the implementation of mathematical models, for additional details you can check my github profile where I decided to version several projects with different purposes, some of then finished, others in working progress.",
-    "crumbs": [
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Projects",
-    "crumbs": [
-      "Projects"
-    ]
-  },
-  {
-    "objectID": "lectures.html",
-    "href": "lectures.html",
-    "title": "Lecture Notes",
-    "section": "",
-    "text": "This lecture are created to be used in the course",
-    "crumbs": [
-      "Lecture Notes"
-    ]
-  },
-  {
-    "objectID": "lectures.html#matemáticas-actuariales-para-seguros-generales",
-    "href": "lectures.html#matemáticas-actuariales-para-seguros-generales",
-    "title": "Lecture Notes",
-    "section": "",
-    "text": "This lecture are created to be used in the course",
-    "crumbs": [
-      "Lecture Notes"
-    ]
-  },
-  {
     "objectID": "software.html",
     "href": "software.html",
     "title": "Software Development",
@@ -90,6 +50,26 @@
     ]
   },
   {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Lecture Notes",
+    "section": "",
+    "text": "This lecture are created to be used in the course",
+    "crumbs": [
+      "Lecture Notes"
+    ]
+  },
+  {
+    "objectID": "lectures.html#matemáticas-actuariales-para-seguros-generales",
+    "href": "lectures.html#matemáticas-actuariales-para-seguros-generales",
+    "title": "Lecture Notes",
+    "section": "",
+    "text": "This lecture are created to be used in the course",
+    "crumbs": [
+      "Lecture Notes"
+    ]
+  },
+  {
     "objectID": "introduction.html",
     "href": "introduction.html",
     "title": "Introduction",
@@ -97,6 +77,16 @@
     "text": "Introduction\nAbout me: My interests of research are focused in two dissimilar subjects.\n\nI am interested in the emerging interactions between optimization and geometry.\nI am interested in the conception of actuarial models specifically looking for new mathematical methods for the study of pension funds.\n\nThe first is my main research subject, I started to work designing mathematical models where I applied in several cases optimization methods; I was focused to only employ well know results to the estimation of complex statistical models, however my research gradually changed from applications to theoretical problems and fundamental consequences impacting another areas in Mathematics, in particular I give special attention to the geometrical interpretations of optimization methods and the computation and design of new invariants related to problems in geometry, in particular I am interested in enumeration problems.\nTime ago, I decided to bifurcate the path of my career as mathematician; as consequence my second research interest emerged, during this time I also gained a good and quite unique experience working as an actuary. In these years, I concentrated a good part of my energy to research, conceive, design, integrate and implement several mathematical models with in applications in insurance and finance. I contributed to the implementation of several valuation models for pension funds, and several other products inside the insurance industry.\nMy work experience as mathematician has been related to the implementation of mathematical models, for additional details you can check my github profile where I decided to version several projects with different purposes, some of then finished, others in working progress.",
     "crumbs": [
       "Introduction"
+    ]
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Projects",
+    "crumbs": [
+      "Projects"
     ]
   }
 ]
