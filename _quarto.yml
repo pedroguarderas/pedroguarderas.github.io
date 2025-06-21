@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Pedro Guarderas"
+  sidebar: 
+    style: "docked"
+    search: true
+    contents: 
+      - text: "Introduction"
+        href: intro.qmd
+      - research.qmd
+      - lectures.qmd
+      - projects.qmd
+      - software.qmd
+format: 
+  html: 
+    theme: sandstone
+    fontsize: 12pt
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    number-sections: false 
+    linestretch: 1.5
+    fig-cap-location: top
+    tbl-cap-location: top
+    html-math-method: katex
+    grid: 
+      body-width: 1200px
+      margin-width: 100px
