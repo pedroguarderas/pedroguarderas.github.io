@@ -4,7 +4,7 @@ project:
 website:
   title: "Pedro Guarderas"
   sidebar: 
-    style: "docked"
+    style: "floating"
     search: true
     contents: 
       - introduction.qmd
@@ -14,11 +14,11 @@ website:
       - software.qmd
 format: 
   html: 
-    theme: sandstone
+    theme: simplex
     fontsize: 12pt
     toc: true
     toc-depth: 3
-    toc-location: left
+    toc-location: right
     number-sections: false 
     linestretch: 1.5
     fig-cap-location: top
