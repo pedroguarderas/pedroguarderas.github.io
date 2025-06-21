@@ -1,75 +1,5 @@
 [
   {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Software Development",
-    "section": "",
-    "text": "I have a good experience developing software, I worked several projects employing R and Python, as result I created some packages and libraries.\n\n\n\n\n\nAn R package for design and test of multi-criteria decision models employing Multi-Attribute Utility Theory (MAUT). https://github.com/pedroguarderas/mau\n\n\n\nAn R package implemented with Rcpp and RcppArmadillo. Spatial statistics methods all based on Kriging. It includes functional analysis of variance (FANOVA). href=“https://github.com/pedroguarderas/KRIG\n\n\n\nAn R package currently under development, implemented with Rcpp. It will provide different computational finance algorithms. As novelty this package includes a pricing method with n-ary trees. https://github.com/pedroguarderas/CFINI",
-    "crumbs": [
-      "Software Development"
-    ]
-  },
-  {
-    "objectID": "software.html#r-programming",
-    "href": "software.html#r-programming",
-    "title": "Software Development",
-    "section": "",
-    "text": "An R package for design and test of multi-criteria decision models employing Multi-Attribute Utility Theory (MAUT). https://github.com/pedroguarderas/mau\n\n\n\nAn R package implemented with Rcpp and RcppArmadillo. Spatial statistics methods all based on Kriging. It includes functional analysis of variance (FANOVA). href=“https://github.com/pedroguarderas/KRIG\n\n\n\nAn R package currently under development, implemented with Rcpp. It will provide different computational finance algorithms. As novelty this package includes a pricing method with n-ary trees. https://github.com/pedroguarderas/CFINI",
-    "crumbs": [
-      "Software Development"
-    ]
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Study of Some Simple Approximations to the Non-Interacting Kinetic Energy Functional, 2016-01-07, International Journal of Quantum Chemistry, Edison Salazar, Pedro Guarderas, Eduardo Ludeña, Mauricio Cornejo, Valentin Karasiev.\n\n\n\n\n\n\nStatistic and Finance for Actuarial Science, 2024-08-05 - 2024-09-21, Pontifical Catholic University of Ecuador, Quito, Ecuador, 80 hours.\nData analysis and actuarial modeling, 2022-02-23, Ecuadorian Actuarial Society, Quito, Ecuador, 1 hour 45 minutes.\nIFIP TC7 Conference of System Modeling and Optimization, 2021-08-30 - 2021-09-03, Quito, Ecuador 5 days.\nFoundations and perspectives of the social security in Latin America, 2021-04-01 Julio Garavito Colombian School of EngineeringMaría Ivette Osorio Arévalo, 36 hours.\nPensions, Solvency and Actuary 4.0, 2019-11-05 - 2019-11-06, International Actuarial Association and Ecuadorian Actuarial Association, Quito, Ecuador 13 hours.\nWorkshop XIV Mathematics and its Applications, 2016-09-01 - 2016-09-05, Mathematics Department, National Polytechnic School, Quito, Ecuador2 days.\nItem Analysis, 2016-03-30 - 2016-04-01, National Center of Evaluation of Higher Education (CENEVAL), Quito, Ecuador30 hours.\nInternational Forum of Accreditation and Quality Assurance in Latin America, 2014-07-16 - 2014-07-17, Mathematics Department, National Polytechnic School, Quito, Ecuador 4 days.\n\n9, Accreditation based on the model ABET2014-02-06Litoral Polytechnic School, Guayaquil, Ecuador18 hours.",
-    "crumbs": [
-      "Research"
-    ]
-  },
-  {
-    "objectID": "research.html#articles",
-    "href": "research.html#articles",
-    "title": "Research",
-    "section": "",
-    "text": "Study of Some Simple Approximations to the Non-Interacting Kinetic Energy Functional, 2016-01-07, International Journal of Quantum Chemistry, Edison Salazar, Pedro Guarderas, Eduardo Ludeña, Mauricio Cornejo, Valentin Karasiev.",
-    "crumbs": [
-      "Research"
-    ]
-  },
-  {
-    "objectID": "research.html#workshops-and-seminars",
-    "href": "research.html#workshops-and-seminars",
-    "title": "Research",
-    "section": "",
-    "text": "Statistic and Finance for Actuarial Science, 2024-08-05 - 2024-09-21, Pontifical Catholic University of Ecuador, Quito, Ecuador, 80 hours.\nData analysis and actuarial modeling, 2022-02-23, Ecuadorian Actuarial Society, Quito, Ecuador, 1 hour 45 minutes.\nIFIP TC7 Conference of System Modeling and Optimization, 2021-08-30 - 2021-09-03, Quito, Ecuador 5 days.\nFoundations and perspectives of the social security in Latin America, 2021-04-01 Julio Garavito Colombian School of EngineeringMaría Ivette Osorio Arévalo, 36 hours.\nPensions, Solvency and Actuary 4.0, 2019-11-05 - 2019-11-06, International Actuarial Association and Ecuadorian Actuarial Association, Quito, Ecuador 13 hours.\nWorkshop XIV Mathematics and its Applications, 2016-09-01 - 2016-09-05, Mathematics Department, National Polytechnic School, Quito, Ecuador2 days.\nItem Analysis, 2016-03-30 - 2016-04-01, National Center of Evaluation of Higher Education (CENEVAL), Quito, Ecuador30 hours.\nInternational Forum of Accreditation and Quality Assurance in Latin America, 2014-07-16 - 2014-07-17, Mathematics Department, National Polytechnic School, Quito, Ecuador 4 days.\n\n9, Accreditation based on the model ABET2014-02-06Litoral Polytechnic School, Guayaquil, Ecuador18 hours.",
-    "crumbs": [
-      "Research"
-    ]
-  },
-  {
-    "objectID": "lectures.html",
-    "href": "lectures.html",
-    "title": "Lecture Notes",
-    "section": "",
-    "text": "This lecture are created to be used in the course",
-    "crumbs": [
-      "Lecture Notes"
-    ]
-  },
-  {
-    "objectID": "lectures.html#matemáticas-actuariales-para-seguros-generales",
-    "href": "lectures.html#matemáticas-actuariales-para-seguros-generales",
-    "title": "Lecture Notes",
-    "section": "",
-    "text": "This lecture are created to be used in the course",
-    "crumbs": [
-      "Lecture Notes"
-    ]
-  },
-  {
     "objectID": "introduction.html",
     "href": "introduction.html",
     "title": "Introduction",
@@ -77,16 +7,6 @@
     "text": "Introduction\nMy interests of research are focused in two dissimilar subjects.\n\nI am interested in the emerging interactions between optimization and geometry.\nI am interested in the conception of actuarial models specifically looking for new mathematical methods for the study of pension funds.\n\nThe first is my main research subject, I started to work designing mathematical models where I applied in several cases optimization methods; I was focused to only employ well know results to the estimation of complex statistical models, however my research gradually changed from applications to theoretical problems and fundamental consequences impacting another areas in Mathematics, in particular I give special attention to the geometrical interpretations of optimization methods and the computation and design of new invariants related to problems in geometry, in particular I am interested in enumeration problems.\nTime ago, I decided to bifurcate the path of my career as mathematician; as consequence my second research interest emerged, during this time I also gained a good and quite unique experience working as an actuary. In these years, I concentrated a good part of my energy to research, conceive, design, integrate and implement several mathematical models with in applications in insurance and finance. I contributed to the implementation of several valuation models for pension funds, and several other products inside the insurance industry.\nMy work experience as mathematician has been related to the implementation of mathematical models, for additional details you can check my github profile where I decided to version several projects with different purposes, some of then finished, others in working progress.",
     "crumbs": [
       "Introduction"
-    ]
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Projects",
-    "crumbs": [
-      "Projects"
     ]
   }
 ]
