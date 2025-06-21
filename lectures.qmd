@@ -10,11 +10,12 @@
 <!------------------------------------------------------------------------------------------------->
 ## Matemáticas Actuariales para Seguros Generales
 
-This lecture are created to be used in the course
+This lecture are created to be used in the course 
+<a href="https://pedroguarderas.github.io/seguros_generales/materia.html">here</a>
 
 <!------------------------------------------------------------------------------------------------->
 ## Spatial Processes
 
 <!------------------------------------------------------------------------------------------------->
-## Manifolds and Quatum Field Theory
+<!-- ## Manifolds and Quatum Field Theory -->
 
