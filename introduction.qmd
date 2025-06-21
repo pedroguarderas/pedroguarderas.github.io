@@ -30,7 +30,6 @@ format:
 <!------------------------------------------------------------------------------------------------->
 # Introduction
 
-About me:
 My interests of research are focused in two dissimilar subjects.
 
 - I am interested in the emerging interactions between optimization and geometry.
