@@ -84,7 +84,17 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Projects",
+    "text": "A time-continuous model for credit risk here, in spanish",
+    "crumbs": [
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "projects.html#finance",
+    "href": "projects.html#finance",
+    "title": "Projects",
+    "section": "",
+    "text": "A time-continuous model for credit risk here, in spanish",
     "crumbs": [
       "Projects"
     ]
