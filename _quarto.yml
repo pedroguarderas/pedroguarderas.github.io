@@ -7,8 +7,7 @@ website:
     style: "docked"
     search: true
     contents: 
-      - text: "Introduction"
-        href: intro.qmd
+      - introduction.qmd
       - research.qmd
       - lectures.qmd
       - projects.qmd
