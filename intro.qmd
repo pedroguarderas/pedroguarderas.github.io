@@ -12,7 +12,7 @@ format:
     tbl-cap-location: top
     html-math-method: katex
     grid: 
-      body-width: 1200px
+      body-width: 1000px
       margin-width: 100px
 ---
 
