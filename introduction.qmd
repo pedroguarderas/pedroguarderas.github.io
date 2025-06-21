@@ -1,11 +1,22 @@
 ---
+about: 
+  template: trestles
+  image: me_2025.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/pedroguarderas
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/pedro-guarderas-proj2501
+      
 format: 
   html: 
-    theme: sandstone
+    theme: simplex
     fontsize: 12pt
     toc: true
     toc-depth: 3
-    toc-location: left
+    toc-location: right
     number-sections: false 
     linestretch: 1.5
     fig-cap-location: top
