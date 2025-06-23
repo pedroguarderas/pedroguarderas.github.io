@@ -11,7 +11,7 @@
 ## Matemáticas Actuariales para Seguros Generales
 
 This lecture are created to be used in the course 
-<a href="https://pedroguarderas.github.io/seguros_generales/materia.html">here</a>
+<a href="https://pedroguarderas.github.io/seguros_generales">here</a>
 
 <!------------------------------------------------------------------------------------------------->
 ## Spatial Processes
