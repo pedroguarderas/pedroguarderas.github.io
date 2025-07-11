@@ -4,7 +4,7 @@
   description: This project started from simple notes, today I am migrating the whole
     lectures to be deployed as a Quarto book.
     
-- name: Matemáticas Actuariales de Seguros Generales
+- name: Matemáticas Actuariales para Seguros Generales
   url: https://risko-actuarios-s-a.github.io/seguros_generales/
   status: Under development
   description: Some lectures created for the course of 
