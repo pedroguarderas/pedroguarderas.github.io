@@ -1,0 +1,22 @@
+- name: Spatial Processes
+  url: https://pedroguarderas.github.io/spatial_processes/
+  status: Under development
+  description: This project started from simple notes, today I am migrating the whole
+    lectures to be deployed as a Quarto book.
+    
+- name: Matemáticas Actuariales de Seguros Generales
+  url: https://risko-actuarios-s-a.github.io/seguros_generales/
+  status: Under development
+  description: Some lectures created for the course of 
+    "Matemáticas Actuariales de Seguros Generales" part of the MSc. program in 
+    Actuarial Science of the National Polytechnic School and the Poncificial Catholic 
+    University of Ecuador.
+
+- name: Un modelo en tiempo continuo para riesgo de crédito
+  url: https://pedroguarderas.github.io/gestion_riesgos/
+  status: Under development
+  description: Here you will find a continuous time model for credit risk, it considers the 
+    explicity the continuous time of each paymente in a loan.
+
+
+

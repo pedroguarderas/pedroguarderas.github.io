@@ -1,26 +1,15 @@
+---
+listing:
+  - id: lectures
+    template: lectures_template.js
+    contents: lectures.yml
+    type: default
+    sort: "name desc"
+    fields: [name, url, status, description]
+---
+
 <!------------------------------------------------------------------------------------------------->
 # Lectures
 
-<!------------------------------------------------------------------------------------------------->
-## Smooth Manifolds
-
-<!------------------------------------------------------------------------------------------------->
-## Actuarial Mathematics
-
-<!------------------------------------------------------------------------------------------------->
-## Matemáticas Actuariales para Seguros Generales
-
-This lecture are created to be used in the course 
-<a href="https://pedroguarderas.github.io/seguros_generales">here</a>
-
-1. A time-continuous model for credit risk 
-<a href="https://pedroguarderas.github.io/gestion_riesgos/gestion_riesgo_credito.html">here</a>, 
-in spanish
-
-
-<!------------------------------------------------------------------------------------------------->
-## Spatial Processes
-
-<!------------------------------------------------------------------------------------------------->
-<!-- ## Manifolds and Quatum Field Theory -->
-
+::: {#lectures style="max-width: 850px;"}
+:::

@@ -4,7 +4,7 @@ listing:
     template: projects_template.js
     contents: projects.yml
     type: default
-    sort: "from desc"
+    sort: "from asc"
     fields: [from, until, title, client, description]
 ---
 

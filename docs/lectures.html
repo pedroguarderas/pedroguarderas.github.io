@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,7 +70,79 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-lectures .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-url','listing-status','listing-description',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-url","listing-status","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-lectures'] = new List('listing-lectures', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="style.css">
 </head>
@@ -127,13 +201,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lectures" id="toc-lectures" class="nav-link active" data-scroll-target="#lectures">Lectures</a>
-  <ul class="collapse">
-  <li><a href="#smooth-manifolds" id="toc-smooth-manifolds" class="nav-link" data-scroll-target="#smooth-manifolds">Smooth Manifolds</a></li>
-  <li><a href="#actuarial-mathematics" id="toc-actuarial-mathematics" class="nav-link" data-scroll-target="#actuarial-mathematics">Actuarial Mathematics</a></li>
-  <li><a href="#matemáticas-actuariales-para-seguros-generales" id="toc-matemáticas-actuariales-para-seguros-generales" class="nav-link" data-scroll-target="#matemáticas-actuariales-para-seguros-generales">Matemáticas Actuariales para Seguros Generales</a></li>
-  <li><a href="#spatial-processes" id="toc-spatial-processes" class="nav-link" data-scroll-target="#spatial-processes">Spatial Processes</a></li>
-  </ul></li>
+  <li><a href="#lectures" id="toc-lectures" class="nav-link active" data-scroll-target="#lectures">Lectures</a></li>
   </ul>
 </nav>
     </div>
@@ -146,30 +214,38 @@ ul.task-list li input[type="checkbox"] {
 <!------------------------------------------------------------------------------------------------->
 <section id="lectures" class="level1">
 <h1>Lectures</h1>
-<!------------------------------------------------------------------------------------------------->
-<section id="smooth-manifolds" class="level2">
-<h2 class="anchored" data-anchor-id="smooth-manifolds">Smooth Manifolds</h2>
-<!------------------------------------------------------------------------------------------------->
-</section>
-<section id="actuarial-mathematics" class="level2">
-<h2 class="anchored" data-anchor-id="actuarial-mathematics">Actuarial Mathematics</h2>
-<!------------------------------------------------------------------------------------------------->
-</section>
-<section id="matemáticas-actuariales-para-seguros-generales" class="level2">
-<h2 class="anchored" data-anchor-id="matemáticas-actuariales-para-seguros-generales">Matemáticas Actuariales para Seguros Generales</h2>
-<p>This lecture are created to be used in the course <a href="https://pedroguarderas.github.io/seguros_generales">here</a></p>
-<ol type="1">
-<li>A time-continuous model for credit risk <a href="https://pedroguarderas.github.io/gestion_riesgos/gestion_riesgo_credito.html">here</a>, in spanish</li>
-</ol>
-<!------------------------------------------------------------------------------------------------->
-</section>
-<section id="spatial-processes" class="level2">
-<h2 class="anchored" data-anchor-id="spatial-processes">Spatial Processes</h2>
-<!------------------------------------------------------------------------------------------------->
-<!-- ## Manifolds and Quatum Field Theory -->
+<div id="listing-lectures" style="max-width: 850px;" class="quarto-listing quarto-listing-container-custom">
+<ul>
+
+  <li>
+    <a href="https://pedroguarderas.github.io/gestion_riesgos/" class="listing-name">Un modelo en tiempo continuo para riesgo de crédito</a><br>
+    <span class="listing-status">Under development</span><br>
+    <span class="listing-description">Here you will find a continuous time model for credit risk, it considers the explicity the continuous time of each paymente in a loan.</span>
+  </li>
+  <br>
+
+  <li>
+    <a href="https://pedroguarderas.github.io/spatial_processes/" class="listing-name">Spatial Processes</a><br>
+    <span class="listing-status">Under development</span><br>
+    <span class="listing-description">This project started from simple notes, today I am migrating the whole lectures to be deployed as a Quarto book.</span>
+  </li>
+  <br>
+
+  <li>
+    <a href="https://risko-actuarios-s-a.github.io/seguros_generales/" class="listing-name">Matemáticas Actuariales de Seguros Generales</a><br>
+    <span class="listing-status">Under development</span><br>
+    <span class="listing-description">Some lectures created for the course of "Matemáticas Actuariales de Seguros Generales" part of the MSc program in Actuarial Science of the National Polytechnic School and the Poncificial Catholic University of Ecuador.</span>
+  </li>
+  <br>
+
+</ul>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
-</section>
+
 </section>
 
 </main> <!-- /main -->
