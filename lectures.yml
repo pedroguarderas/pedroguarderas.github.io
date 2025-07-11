@@ -12,7 +12,7 @@
     Actuarial Science of the National Polytechnic School and the Poncificial Catholic 
     University of Ecuador.
 
-- name: Un modelo en tiempo continuo para riesgo de crédito
+- name: Análisis riesgo de crédito
   url: https://pedroguarderas.github.io/gestion_riesgos/
   status: Under development
   description: Here you will find a continuous time model for credit risk, it considers the 
