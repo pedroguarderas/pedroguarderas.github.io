@@ -8,7 +8,7 @@
   description: An R package implemented with Rcpp and RcppArmadillo. Spatial statistics methods all 
     based on Kriging. It includes functional analysis of variance (FANOVA). 
 
-- name: KRIG
+- name: CFINI
   url: https://github.com/pedroguarderas/CFINI
   description: An R package currently under development, implemented with Rcpp. It will provide 
     different computational finance algorithms. As novelty this package includes a pricing method 

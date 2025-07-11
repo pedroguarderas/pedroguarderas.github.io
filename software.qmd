@@ -4,7 +4,7 @@ listing:
     template: software_template.js
     contents: software.yml
     type: default
-    sort: "from desc"
+    sort: "name desc"
     fields: [name, url, description]
 ---
 

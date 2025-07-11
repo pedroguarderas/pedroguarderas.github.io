@@ -4,11 +4,11 @@ project:
 
 website:  
   title: "Pedro Guarderas"
-  sidebar: 
-    style: "floating"
+  navbar: 
     search: true
-    contents: 
-      - introduction.qmd
+    right: 
+      - href: introduction.qmd
+        text: Home
       - research.qmd
       - lectures.qmd
       - projects.qmd
@@ -17,8 +17,11 @@ website:
 format:
   html:
     css: style.css
-    theme: trestles
+    theme: 
+      light: jolla
+      dark: solar
     fontsize: 12pt
+    page-layout: full
     toc: true
     toc-depth: 3
     toc-location: right

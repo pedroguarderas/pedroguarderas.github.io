@@ -1,6 +1,8 @@
 ---
 about:
-  template: trestles
+  template: jolla
+  image-shape: rectangle
+  image-width: 17em
   image: me_2025.jpg
   links:
     - icon: github
