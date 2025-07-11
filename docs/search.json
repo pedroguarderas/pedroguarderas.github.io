@@ -2,51 +2,11 @@
   {
     "objectID": "software.html",
     "href": "software.html",
-    "title": "Software Development",
+    "title": "Software",
     "section": "",
-    "text": "I have a good experience developing software, I worked several projects employing R and Python, as result I created some packages and libraries.\n\n\n\n\n\nAn R package for design and test of multi-criteria decision models employing Multi-Attribute Utility Theory (MAUT). https://github.com/pedroguarderas/mau\n\n\n\nAn R package implemented with Rcpp and RcppArmadillo. Spatial statistics methods all based on Kriging. It includes functional analysis of variance (FANOVA). href=“https://github.com/pedroguarderas/KRIG\n\n\n\nAn R package currently under development, implemented with Rcpp. It will provide different computational finance algorithms. As novelty this package includes a pricing method with n-ary trees. https://github.com/pedroguarderas/CFINI",
+    "text": "Software\nI have a good experience developing software, I worked several projects employing R and Python, as result I created some packages and libraries.\n\n\n\n  \n    mau,\n    https://github.com/pedroguarderas/mau \n    An R package for design and test of multi-criteria decision models employing Multi-Attribute Utility Theory (MAUT).\n  \n  \n\n  \n    KRIG,\n    https://github.com/pedroguarderas/KRIG \n    An R package implemented with Rcpp and RcppArmadillo. Spatial statistics methods all based on Kriging. It includes functional analysis of variance (FANOVA).\n  \n  \n\n  \n    KRIG,\n    https://github.com/pedroguarderas/CFINI \n    An R package currently under development, implemented with Rcpp. It will provide different computational finance algorithms. As novelty this package includes a pricing method with n-ary trees.\n  \n  \n\n\n\nNo matching items",
     "crumbs": [
-      "Software Development"
-    ]
-  },
-  {
-    "objectID": "software.html#r-programming",
-    "href": "software.html#r-programming",
-    "title": "Software Development",
-    "section": "",
-    "text": "An R package for design and test of multi-criteria decision models employing Multi-Attribute Utility Theory (MAUT). https://github.com/pedroguarderas/mau\n\n\n\nAn R package implemented with Rcpp and RcppArmadillo. Spatial statistics methods all based on Kriging. It includes functional analysis of variance (FANOVA). href=“https://github.com/pedroguarderas/KRIG\n\n\n\nAn R package currently under development, implemented with Rcpp. It will provide different computational finance algorithms. As novelty this package includes a pricing method with n-ary trees. https://github.com/pedroguarderas/CFINI",
-    "crumbs": [
-      "Software Development"
-    ]
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Study of Some Simple Approximations to the Non-Interacting Kinetic Energy Functional, 2016-01-07, International Journal of Quantum Chemistry, Edison Salazar, Pedro Guarderas, Eduardo Ludeña, Mauricio Cornejo, Valentin Karasiev.\n\n\n\n\n\n\nStatistic and Finance for Actuarial Science, 2024-08-05 - 2024-09-21, Pontifical Catholic University of Ecuador, Quito, Ecuador, 80 hours.\nData analysis and actuarial modeling, 2022-02-23, Ecuadorian Actuarial Society, Quito, Ecuador, 1 hour 45 minutes.\nIFIP TC7 Conference of System Modeling and Optimization, 2021-08-30 - 2021-09-03, Quito, Ecuador 5 days.\nFoundations and perspectives of the social security in Latin America, 2021-04-01 Julio Garavito Colombian School of EngineeringMaría Ivette Osorio Arévalo, 36 hours.\nPensions, Solvency and Actuary 4.0, 2019-11-05 - 2019-11-06, International Actuarial Association and Ecuadorian Actuarial Association, Quito, Ecuador 13 hours.\nWorkshop XIV Mathematics and its Applications, 2016-09-01 - 2016-09-05, Mathematics Department, National Polytechnic School, Quito, Ecuador2 days.\nItem Analysis, 2016-03-30 - 2016-04-01, National Center of Evaluation of Higher Education (CENEVAL), Quito, Ecuador30 hours.\nInternational Forum of Accreditation and Quality Assurance in Latin America, 2014-07-16 - 2014-07-17, Mathematics Department, National Polytechnic School, Quito, Ecuador 4 days.\n\n9, Accreditation based on the model ABET2014-02-06Litoral Polytechnic School, Guayaquil, Ecuador18 hours.",
-    "crumbs": [
-      "Research"
-    ]
-  },
-  {
-    "objectID": "research.html#articles",
-    "href": "research.html#articles",
-    "title": "Research",
-    "section": "",
-    "text": "Study of Some Simple Approximations to the Non-Interacting Kinetic Energy Functional, 2016-01-07, International Journal of Quantum Chemistry, Edison Salazar, Pedro Guarderas, Eduardo Ludeña, Mauricio Cornejo, Valentin Karasiev.",
-    "crumbs": [
-      "Research"
-    ]
-  },
-  {
-    "objectID": "research.html#workshops-and-seminars",
-    "href": "research.html#workshops-and-seminars",
-    "title": "Research",
-    "section": "",
-    "text": "Statistic and Finance for Actuarial Science, 2024-08-05 - 2024-09-21, Pontifical Catholic University of Ecuador, Quito, Ecuador, 80 hours.\nData analysis and actuarial modeling, 2022-02-23, Ecuadorian Actuarial Society, Quito, Ecuador, 1 hour 45 minutes.\nIFIP TC7 Conference of System Modeling and Optimization, 2021-08-30 - 2021-09-03, Quito, Ecuador 5 days.\nFoundations and perspectives of the social security in Latin America, 2021-04-01 Julio Garavito Colombian School of EngineeringMaría Ivette Osorio Arévalo, 36 hours.\nPensions, Solvency and Actuary 4.0, 2019-11-05 - 2019-11-06, International Actuarial Association and Ecuadorian Actuarial Association, Quito, Ecuador 13 hours.\nWorkshop XIV Mathematics and its Applications, 2016-09-01 - 2016-09-05, Mathematics Department, National Polytechnic School, Quito, Ecuador2 days.\nItem Analysis, 2016-03-30 - 2016-04-01, National Center of Evaluation of Higher Education (CENEVAL), Quito, Ecuador30 hours.\nInternational Forum of Accreditation and Quality Assurance in Latin America, 2014-07-16 - 2014-07-17, Mathematics Department, National Polytechnic School, Quito, Ecuador 4 days.\n\n9, Accreditation based on the model ABET2014-02-06Litoral Polytechnic School, Guayaquil, Ecuador18 hours.",
-    "crumbs": [
-      "Research"
+      "Software"
     ]
   },
   {
@@ -54,7 +14,7 @@
     "href": "lectures.html",
     "title": "Lecture Notes",
     "section": "",
-    "text": "This lecture are created to be used in the course here",
+    "text": "This lecture are created to be used in the course here\n\nA time-continuous model for credit risk here, in spanish",
     "crumbs": [
       "Lecture Notes"
     ]
@@ -64,7 +24,7 @@
     "href": "lectures.html#matemáticas-actuariales-para-seguros-generales",
     "title": "Lecture Notes",
     "section": "",
-    "text": "This lecture are created to be used in the course here",
+    "text": "This lecture are created to be used in the course here\n\nA time-continuous model for credit risk here, in spanish",
     "crumbs": [
       "Lecture Notes"
     ]
@@ -74,7 +34,7 @@
     "href": "introduction.html",
     "title": "Introduction",
     "section": "",
-    "text": "Introduction\nMy interests of research are focused in two dissimilar subjects.\n\nI am interested in the emerging interactions between optimization and geometry.\nI am interested in the conception of actuarial models specifically looking for new mathematical methods for the study of pension funds.\n\nThe first is my main research subject, I started to work designing mathematical models where I applied in several cases optimization methods; I was focused to only employ well know results to the estimation of complex statistical models, however my research gradually changed from applications to theoretical problems and fundamental consequences impacting another areas in Mathematics, in particular I give special attention to the geometrical interpretations of optimization methods and the computation and design of new invariants related to problems in geometry, in particular I am interested in enumeration problems.\nTime ago, I decided to bifurcate the path of my career as mathematician; as consequence my second research interest emerged, during this time I also gained a good and quite unique experience working as an actuary. In these years, I concentrated a good part of my energy to research, conceive, design, integrate and implement several mathematical models with in applications in insurance and finance. I contributed to the implementation of several valuation models for pension funds, and several other products inside the insurance industry.\nMy work experience as mathematician has been related to the implementation of mathematical models, for additional details you can check my github profile where I decided to version several projects with different purposes, some of then finished, others in working progress.",
+    "text": "Introduction\nMy research interests are focused on two distinct areas:\n\nThe emerging interplay between optimization and geometry, particularly in the development of geometric interpretations of optimization methods and the discovery of new invariants.\nThe design of actuarial models, with a particular emphasis on developing novel stochastic approaches for the analysis and valuation of different insurance products.\n\nMy primary research focus began with the design of mathematical models, where I applied optimization methods to a variety of problems. Initially, my work emphasized the application of well-established results to estimate complex statistical models. However, over time, my interests evolved from applied problems to more theoretical questions, particularly those with foundational consequences across other areas of mathematics. I now pay special attention to the geometric interpretation of optimization methods and the development of new invariants, especially those arising in enumeration and related geometric problems.\nAt a certain point, I chose to diversify my career path in mathematics, which led to the emergence of my second research interest. During this period, I also gained valuable and relatively uncommon experience working as an actuary. I devoted significant effort to researching, designing, integrating, and implementing mathematical models with applications in insurance and finance. Notably, I contributed to the development and implementation of various valuation models for pension funds, as well as other products within the insurance sector.\nMy professional experience as a mathematician has been closely tied to the implementation of mathematical models. For further details, I invite you to visit my GitHub profile , where I have shared a variety of projects. These range from completed works to others currently in progress, and they reflect different aspects of my research and applied work.",
     "crumbs": [
       "Introduction"
     ]
@@ -84,17 +44,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "A time-continuous model for credit risk here, in spanish",
-    "crumbs": [
-      "Projects"
-    ]
-  },
-  {
-    "objectID": "projects.html#finance",
-    "href": "projects.html#finance",
-    "title": "Projects",
-    "section": "",
-    "text": "A time-continuous model for credit risk here, in spanish",
+    "text": "Projects\n\n\n\n  \n    2024-06-01 - 2025-04-01, \n    Valuation of social security funds,\n    Ecuadorian Institute of Social Security (IESS) \n    Actuarial consultancy for the design and implementation of several actuarial models for the valuation of reserves and solvency of social security. We designed a collaborative R project, to process massive information, estimate transition rates, smooth estimated rates, dynamic mortality modeling, macroeconomic modeling and demographic projections. All methods were integrated to estimate mathematical reserves under different scenarios.\n  \n  \n\n  \n    2022-09-01 - 2022-09-30, \n    Administrative expenses optimization,\n    Zurich Insurance \n    Creation of a linear programming model for the optimal assignation of non distributed expenses to different lines of business. Improvement of the constitution of reserves due to inadequacy of premiums.\n  \n  \n\n  \n    2022-09 - 2022-10, \n    IBNR valuation,\n    Zurich Insurance \n    Implementation of a dynamic engine for the computation of IBNR reserves buy  employing different type of methodologies: Cape-Cod, Chain-Ladder, Credibility Chain-Ladder,  Bornhuetter-Ferguson, Mack, distributional, bootstrap and GLMs.\n  \n  \n\n  \n    2019-08 - 2020-03, \n    Valuation of Retirement, Disability and Death,\n    Institute of Social Security of the Ecuadorian Armed Forces \n    Actuarial consultancy for the design and implementation of the actuarial model for the valuation of reserves and solvency of pensions managed by the military social security.\n  \n  \n\n  \n    2019-08 - 2020-03, \n    Valuation of funds,\n    Institute of Social Security of the Ecuadorian Armed Forces \n    Actuarial consultancy for the design and implementation of several actuarial models for the valuation of reserves and solvency of military social security. We designed a hierarchical continuous Markov chain model to include the rank transitions of the population.\n  \n  \n\n  \n    2019-07-11 - 2020-03-31, \n    Valuation of social security funds,\n    Ecuadorian Institute of Social Security (IESS) \n    Actuarial consultancy for the design and implementation of several actuarial models for the valuation of reserves and solvency of social security. We designed a collaborative R project, to process massive information, estimate transition rates, smooth estimated rates, dynamic mortality modeling, macroeconomic modeling and demographic projections. All methods were integrated to estimate mathematical reserves under different scenarios.\n  \n  \n\n  \n    2017-06 - 2025-06, \n    Risko NIC19,\n    Risko Actuarios S.A. \n    Project in continuous development, designed to estimate different mathematical reserves under the International Accounting Standard 19 (IAS 19), in particular it computes reserves under several configurations adapted to clients needs. The project Risko NIC19 includes automated reporting employing literate programming with knitr and LaTeX.\n  \n  \n\n  \n    2017-01 - 2025-06, \n    Risko,\n    Risko Actuarios S.A. \n    An R package in continuous development which implements different actuarial routines, for valuation of individual and collective risk models, risk measures based in VaR, CVaR, EVaR, stochastic simulation of continuous Markov process with locally homogeneous transitions, numerical computation on complex expected values of deduction functions, dynamic mortality models Lee-Carter, Li-Lee and Cairns-Blake-Dowd and estimation of IBNR reserves.\n  \n  \n\n  \n    2014-01-01 - 2016-12-31, \n    Decision and Ranking Models,\n    Consejo de Evaluación, Acreditación y Aseguramiento de la Calidad de la Educación Superior \n    Development of a platform for the statistical analysis of information provided by the higher education system of Ecuador and computation of several quality indicators, design and implementation of decision models for ranking higher education institutions. Automated reporting employing literate programming methods.\n  \n  \n\n\n\nNo matching items",
     "crumbs": [
       "Projects"
     ]

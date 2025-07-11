@@ -1,5 +1,5 @@
 ---
-about: 
+about:
   template: trestles
   image: me_2025.jpg
   links:
@@ -9,51 +9,35 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/pedro-guarderas-proj2501
-      
-format: 
-  html: 
-    css: style.css
-    theme: simplex
-    fontsize: 12pt
-    toc: true
-    toc-depth: 3
-    toc-location: right
-    number-sections: false 
-    linestretch: 1.5
-    fig-cap-location: top
-    tbl-cap-location: top
-    html-math-method: katex
-    grid: 
-      body-width: 1000px
-      margin-width: 300px
 ---
-
 <!------------------------------------------------------------------------------------------------->
 # Introduction
 
-My interests of research are focused in two dissimilar subjects.
+My research interests are focused on two distinct areas:
 
-- I am interested in the emerging interactions between optimization and geometry.
+  - The emerging interplay between optimization and geometry, particularly in the development of 
+  geometric interpretations of optimization methods and the discovery of new invariants.
 
-- I am interested in the conception of actuarial models specifically looking for new mathematical 
-  methods for the study of pension funds.
+  - The design of actuarial models, with a particular emphasis on developing novel stochastic
+  approaches for the analysis and valuation of different insurance products.
 
-The first is my main research subject, I started to work designing mathematical models where I
-applied in several cases optimization methods; I was focused to only employ well know results to 
-the estimation of complex statistical models, however my research gradually changed from 
-applications to theoretical problems and fundamental consequences impacting another areas in 
-Mathematics, in particular I give special attention to the geometrical interpretations of 
-optimization methods and the computation and design of new invariants related to problems in 
-geometry, in particular I am interested in enumeration problems.
+My primary research focus began with the design of mathematical models, where I applied optimization 
+methods to a variety of problems. Initially, my work emphasized the application of well-established 
+results to estimate complex statistical models. However, over time, my interests evolved from 
+applied problems to more theoretical questions, particularly those with foundational consequences 
+across other areas of mathematics. I now pay special attention to the geometric interpretation of 
+optimization methods and the development of new invariants, especially those arising in enumeration 
+and related geometric problems.
 
-Time ago, I decided to bifurcate the path of my career as mathematician; as consequence my second 
-research interest emerged, during this time I also gained a good and quite unique experience 
-working as an actuary. In these years, I concentrated a good part of my energy to research, 
-conceive, design, integrate and implement several mathematical models with in applications in 
-insurance and finance. I contributed to the implementation of several valuation models for pension 
-funds, and several other products inside the insurance industry.
+At a certain point, I chose to diversify my career path in mathematics, which led to the emergence 
+of my second research interest. During this period, I also gained valuable and relatively uncommon 
+experience working as an actuary. I devoted significant effort to researching, designing, 
+integrating, and implementing mathematical models with applications in insurance and finance. 
+Notably, I contributed to the development and implementation of various valuation models for 
+pension funds, as well as other products within the insurance sector.
 
-My work experience as mathematician has been related to the implementation of mathematical models, 
-for additional details you can check <a href="https://github.com/pedroguarderas/">my github</a> 
-profile where I decided to version several projects with different purposes, some of then finished, 
-others in working progress.
+My professional experience as a mathematician has been closely tied to the implementation of 
+mathematical models. For further details, I invite you to visit my
+<a href="https://github.com/pedroguarderas/">GitHub profile</a> , where I have shared a variety of 
+projects. These range from completed works to others currently in progress, and they reflect 
+different aspects of my research and applied work.

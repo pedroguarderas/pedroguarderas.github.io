@@ -1,12 +1,15 @@
+---
+listing:
+  - id: projects
+    template: projects_template.js
+    contents: projects.yml
+    type: default
+    sort: "from desc"
+    fields: [from, until, title, client, description]
+---
+
 <!------------------------------------------------------------------------------------------------->
 # Projects
 
-<!------------------------------------------------------------------------------------------------->
-## Actuarial 
-
-<!------------------------------------------------------------------------------------------------->
-## Finance
-
-1. A time-continuous model for credit risk 
-<a href="https://pedroguarderas.github.io/gestion_riesgos/gestion_riesgo_credito.html">here</a>, 
-in spanish
+::: {#projects style="max-width: 850px;"}
+:::

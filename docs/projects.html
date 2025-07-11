@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -38,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-59443619bc7ef5baf7680cf94b0e9461.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-04f76959ef14ea1657e83744ff0ddb47.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -66,7 +68,79 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-projects .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-from','listing-until','listing-title','listing-client','listing-description',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-from","listing-until","listing-title","listing-client","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="style.css">
 </head>
@@ -132,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./software.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Software Development</span></a>
+ <span class="menu-text">Software</span></a>
   </div>
 </li>
     </ul>
@@ -145,11 +219,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#projects" id="toc-projects" class="nav-link active" data-scroll-target="#projects">Projects</a>
-  <ul class="collapse">
-  <li><a href="#actuarial" id="toc-actuarial" class="nav-link" data-scroll-target="#actuarial">Actuarial</a></li>
-  <li><a href="#finance" id="toc-finance" class="nav-link" data-scroll-target="#finance">Finance</a></li>
-  </ul></li>
+  <li><a href="#projects" id="toc-projects" class="nav-link active" data-scroll-target="#projects">Projects</a></li>
   </ul>
 </nav>
     </div>
@@ -162,19 +232,89 @@ ul.task-list li input[type="checkbox"] {
 <!------------------------------------------------------------------------------------------------->
 <section id="projects" class="level1">
 <h1>Projects</h1>
-<!------------------------------------------------------------------------------------------------->
-<section id="actuarial" class="level2">
-<h2 class="anchored" data-anchor-id="actuarial">Actuarial</h2>
-<!------------------------------------------------------------------------------------------------->
-</section>
-<section id="finance" class="level2">
-<h2 class="anchored" data-anchor-id="finance">Finance</h2>
-<ol type="1">
-<li>A time-continuous model for credit risk <a href="https://pedroguarderas.github.io/gestion_riesgos/gestion_riesgo_credito.html">here</a>, in spanish</li>
-</ol>
+<div id="listing-projects" style="max-width: 850px;" class="quarto-listing quarto-listing-container-custom">
+<ul>
+
+  <li>
+    2024-06-01 - 2025-04-01, 
+    Valuation of social security funds,
+    Ecuadorian Institute of Social Security (IESS) <br>
+    Actuarial consultancy for the design and implementation of several actuarial models for the valuation of reserves and solvency of social security. We designed a collaborative R project, to process massive information, estimate transition rates, smooth estimated rates, dynamic mortality modeling, macroeconomic modeling and demographic projections. All methods were integrated to estimate mathematical reserves under different scenarios.
+  </li>
+  <br>
+
+  <li>
+    2022-09-01 - 2022-09-30, 
+    Administrative expenses optimization,
+    Zurich Insurance <br>
+    Creation of a linear programming model for the optimal assignation of non distributed expenses to different lines of business. Improvement of the constitution of reserves due to inadequacy of premiums.
+  </li>
+  <br>
+
+  <li>
+    2022-09 - 2022-10, 
+    IBNR valuation,
+    Zurich Insurance <br>
+    Implementation of a dynamic engine for the computation of IBNR reserves buy  employing different type of methodologies: Cape-Cod, Chain-Ladder, Credibility Chain-Ladder,  Bornhuetter-Ferguson, Mack, distributional, bootstrap and GLMs.
+  </li>
+  <br>
+
+  <li>
+    2019-08 - 2020-03, 
+    Valuation of Retirement, Disability and Death,
+    Institute of Social Security of the Ecuadorian Armed Forces <br>
+    Actuarial consultancy for the design and implementation of the actuarial model for the valuation of reserves and solvency of pensions managed by the military social security.
+  </li>
+  <br>
+
+  <li>
+    2019-08 - 2020-03, 
+    Valuation of funds,
+    Institute of Social Security of the Ecuadorian Armed Forces <br>
+    Actuarial consultancy for the design and implementation of several actuarial models for the valuation of reserves and solvency of military social security. We designed a hierarchical continuous Markov chain model to include the rank transitions of the population.
+  </li>
+  <br>
+
+  <li>
+    2019-07-11 - 2020-03-31, 
+    Valuation of social security funds,
+    Ecuadorian Institute of Social Security (IESS) <br>
+    Actuarial consultancy for the design and implementation of several actuarial models for the valuation of reserves and solvency of social security. We designed a collaborative R project, to process massive information, estimate transition rates, smooth estimated rates, dynamic mortality modeling, macroeconomic modeling and demographic projections. All methods were integrated to estimate mathematical reserves under different scenarios.
+  </li>
+  <br>
+
+  <li>
+    2017-06 - 2025-06, 
+    Risko NIC19,
+    Risko Actuarios S.A. <br>
+    Project in continuous development, designed to estimate different mathematical reserves under the International Accounting Standard 19 (IAS 19), in particular it computes reserves under several configurations adapted to clients needs. The project Risko NIC19 includes automated reporting employing literate programming with knitr and LaTeX.
+  </li>
+  <br>
+
+  <li>
+    2017-01 - 2025-06, 
+    Risko,
+    Risko Actuarios S.A. <br>
+    An R package in continuous development which implements different actuarial routines, for valuation of individual and collective risk models, risk measures based in VaR, CVaR, EVaR, stochastic simulation of continuous Markov process with locally homogeneous transitions, numerical computation on complex expected values of deduction functions, dynamic mortality models Lee-Carter, Li-Lee and Cairns-Blake-Dowd and estimation of IBNR reserves.
+  </li>
+  <br>
+
+  <li>
+    2014-01-01 - 2016-12-31, 
+    Decision and Ranking Models,
+    Consejo de Evaluación, Acreditación y Aseguramiento de la Calidad de la Educación Superior <br>
+    Development of a platform for the statistical analysis of information provided by the higher education system of Ecuador and computation of several quality indicators, design and implementation of decision models for ranking higher education institutions. Automated reporting employing literate programming methods.
+  </li>
+  <br>
+
+</ul>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
-</section>
+
 </section>
 
 </main> <!-- /main -->

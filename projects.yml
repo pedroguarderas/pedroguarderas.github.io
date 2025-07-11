@@ -1,0 +1,78 @@
+- from: 2024-06-01
+  until: 2025-04-01
+  title: Valuation of social security funds
+  client: Ecuadorian Institute of Social Security (IESS)
+  description: Actuarial consultancy for the design and implementation of several actuarial models 
+    for the valuation of reserves and solvency of social security. We designed a collaborative R 
+    project, to process massive information, estimate transition rates, smooth estimated rates, 
+    dynamic mortality modeling, macroeconomic modeling and demographic projections. All methods were 
+    integrated to estimate mathematical reserves under different scenarios. 
+
+- from: 2022-09-01
+  until: 2022-09-30
+  title: Administrative expenses optimization
+  client: Zurich Insurance
+  description: Creation of a linear programming model for the optimal assignation of non 
+    distributed expenses to different lines of business. Improvement of the constitution of 
+    reserves due to inadequacy of premiums.
+
+- from: 2022-09
+  until: 2022-10
+  title: IBNR valuation
+  client: Zurich Insurance
+  description: "Implementation of a dynamic engine for the computation of IBNR reserves buy 
+    employing different type of methodologies: Cape-Cod, Chain-Ladder, Credibility Chain-Ladder, 
+    Bornhuetter-Ferguson, Mack, distributional, bootstrap and GLMs."
+    
+- from: 2019-07-11 
+  until: 2020-03-31
+  title: Valuation of social security funds
+  client: Ecuadorian Institute of Social Security (IESS)
+  description: Actuarial consultancy for the design and implementation of several actuarial models
+    for the valuation of reserves and solvency of social security. We designed a collaborative R 
+    project, to process massive information, estimate transition rates, smooth estimated rates, 
+    dynamic mortality modeling, macroeconomic modeling and demographic projections. All methods were 
+    integrated to estimate mathematical reserves under different scenarios.
+
+- from: 2019-08 
+  until: 2020-03
+  title: Valuation of Retirement, Disability and Death
+  client: Institute of Social Security of the Ecuadorian Armed Forces
+  description: Actuarial consultancy for the design and implementation of the actuarial model for 
+    the valuation of reserves and solvency of pensions managed by the military social security.
+
+- from: 2017-06
+  until: 2025-06
+  title: Risko NIC19
+  client: Risko Actuarios S.A.
+  description: Project in continuous development, designed to estimate different mathematical 
+    reserves under the International Accounting Standard 19 (IAS 19), in particular it computes 
+    reserves under several configurations adapted to clients needs. The project Risko NIC19 
+    includes automated reporting employing literate programming with knitr and LaTeX.
+  
+- from: 2017-01
+  until: 2025-06
+  title: Risko
+  client: Risko Actuarios S.A.
+  description: An R package in continuous development which implements different actuarial routines, 
+    for valuation of individual and collective risk models, risk measures based in VaR, CVaR, EVaR, 
+    stochastic simulation of continuous Markov process with locally homogeneous transitions, 
+    numerical computation on complex expected values of deduction functions, dynamic mortality 
+    models Lee-Carter, Li-Lee and Cairns-Blake-Dowd and estimation of IBNR reserves.
+  
+- from: 2019-08 
+  until: 2020-03
+  title: Valuation of funds
+  client: Institute of Social Security of the Ecuadorian Armed Forces
+  description: Actuarial consultancy for the design and implementation of several actuarial models 
+    for the valuation of reserves and solvency of military social security. We designed a 
+    hierarchical continuous Markov chain model to include the rank transitions of the population.
+  
+- from: 2014-01-01 
+  until: 2016-12-31
+  title: Decision and Ranking Models
+  client: Consejo de Evaluación, Acreditación y Aseguramiento de la Calidad de la Educación Superior
+  description: Development of a platform for the statistical analysis of information provided by 
+    the higher education system of Ecuador and computation of several quality indicators, design 
+    and implementation of decision models for ranking higher education institutions. Automated 
+    reporting employing literate programming methods.

@@ -1,0 +1,15 @@
+- name: mau
+  url: https://github.com/pedroguarderas/mau
+  description: An R package for design and test of multi-criteria decision models employing 
+    Multi-Attribute Utility Theory (MAUT).  
+
+- name: KRIG
+  url: https://github.com/pedroguarderas/KRIG
+  description: An R package implemented with Rcpp and RcppArmadillo. Spatial statistics methods all 
+    based on Kriging. It includes functional analysis of variance (FANOVA). 
+
+- name: KRIG
+  url: https://github.com/pedroguarderas/CFINI
+  description: An R package currently under development, implemented with Rcpp. It will provide 
+    different computational finance algorithms. As novelty this package includes a pricing method 
+    with n-ary trees. 

@@ -1,7 +1,8 @@
-project:
+project: 
   type: website
   output-dir: docs
-website:
+
+website:  
   title: "Pedro Guarderas"
   sidebar: 
     style: "floating"
@@ -12,19 +13,20 @@ website:
       - lectures.qmd
       - projects.qmd
       - software.qmd
-format: 
-  html: 
+
+format:
+  html:
     css: style.css
-    theme: simplex
+    theme: trestles
     fontsize: 12pt
     toc: true
     toc-depth: 3
     toc-location: right
-    number-sections: false 
+    number-sections: false
     linestretch: 1.5
     fig-cap-location: top
     tbl-cap-location: top
     html-math-method: katex
-    grid: 
+    grid:
       body-width: 1000px
       margin-width: 300px

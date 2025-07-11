@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -38,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-59443619bc7ef5baf7680cf94b0e9461.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-04f76959ef14ea1657e83744ff0ddb47.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -66,7 +68,79 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-software .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-url','listing-description',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-url","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-software'] = new List('listing-software', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="style.css">
 </head>
@@ -80,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./software.html">Software Development</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./software.html">Software</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -132,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./software.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Software Development</span></a>
+ <span class="menu-text">Software</span></a>
   </div>
 </li>
     </ul>
@@ -145,16 +219,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#software-development" id="toc-software-development" class="nav-link active" data-scroll-target="#software-development">Software Development</a>
-  <ul class="collapse">
-  <li><a href="#r-programming" id="toc-r-programming" class="nav-link" data-scroll-target="#r-programming">R Programming</a>
-  <ul class="collapse">
-  <li><a href="#mau" id="toc-mau" class="nav-link" data-scroll-target="#mau">mau</a></li>
-  <li><a href="#krig" id="toc-krig" class="nav-link" data-scroll-target="#krig">KRIG</a></li>
-  <li><a href="#cfini" id="toc-cfini" class="nav-link" data-scroll-target="#cfini">CFINI</a></li>
-  </ul></li>
-  <li><a href="#c-programming" id="toc-c-programming" class="nav-link" data-scroll-target="#c-programming">C++ Programming</a></li>
-  </ul></li>
+  <li><a href="#software" id="toc-software" class="nav-link active" data-scroll-target="#software">Software</a></li>
   </ul>
 </nav>
     </div>
@@ -165,31 +230,41 @@ ul.task-list li input[type="checkbox"] {
 
 
 <!------------------------------------------------------------------------------------------------->
-<section id="software-development" class="level1">
-<h1>Software Development</h1>
+<section id="software" class="level1">
+<h1>Software</h1>
 <p>I have a good experience developing software, I worked several projects employing R and Python, as result I created some packages and libraries.</p>
-<!------------------------------------------------------------------------------------------------->
-<section id="r-programming" class="level2">
-<h2 class="anchored" data-anchor-id="r-programming">R Programming</h2>
-<section id="mau" class="level3">
-<h3 class="anchored" data-anchor-id="mau">mau</h3>
-<p>An R package for design and test of multi-criteria decision models employing Multi-Attribute Utility Theory (MAUT). https://github.com/pedroguarderas/mau</p>
-</section>
-<section id="krig" class="level3">
-<h3 class="anchored" data-anchor-id="krig">KRIG</h3>
-<p>An R package implemented with Rcpp and RcppArmadillo. Spatial statistics methods all based on Kriging. It includes functional analysis of variance (FANOVA). href=“https://github.com/pedroguarderas/KRIG</p>
-</section>
-<section id="cfini" class="level3">
-<h3 class="anchored" data-anchor-id="cfini">CFINI</h3>
-<p>An R package currently under development, implemented with Rcpp. It will provide different computational finance algorithms. As novelty this package includes a pricing method with n-ary trees. https://github.com/pedroguarderas/CFINI</p>
-<!------------------------------------------------------------------------------------------------->
-</section>
-</section>
-<section id="c-programming" class="level2">
-<h2 class="anchored" data-anchor-id="c-programming">C++ Programming</h2>
+<div id="listing-software" style="max-width: 850px;" class="quarto-listing quarto-listing-container-custom">
+<ul>
+
+  <li>
+    mau,
+    https://github.com/pedroguarderas/mau <br>
+    An R package for design and test of multi-criteria decision models employing Multi-Attribute Utility Theory (MAUT).
+  </li>
+  <br>
+
+  <li>
+    KRIG,
+    https://github.com/pedroguarderas/KRIG <br>
+    An R package implemented with Rcpp and RcppArmadillo. Spatial statistics methods all based on Kriging. It includes functional analysis of variance (FANOVA).
+  </li>
+  <br>
+
+  <li>
+    KRIG,
+    https://github.com/pedroguarderas/CFINI <br>
+    An R package currently under development, implemented with Rcpp. It will provide different computational finance algorithms. As novelty this package includes a pricing method with n-ary trees.
+  </li>
+  <br>
+
+</ul>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
-</section>
+
 </section>
 
 </main> <!-- /main -->
