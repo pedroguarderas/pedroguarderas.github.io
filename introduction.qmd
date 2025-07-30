@@ -20,8 +20,8 @@ My research interests are focused on two distinct areas:
   - The emerging interplay between optimization and geometry, particularly in the development of 
   geometric interpretations of optimization methods and the discovery of new invariants.
 
-  - The design of actuarial models, with a particular emphasis on developing novel stochastic
-  approaches for the creation on innovative tools for risk management.
+  - The design of mathematical models, with a particular emphasis on developing novel stochastic
+  approaches for the creation of tools for risk management.
 
 My primary research focus began with the design of mathematical models, where I applied optimization 
 methods to a variety of problems. Initially, my work emphasized the application of well-established 
