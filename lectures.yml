@@ -1,3 +1,18 @@
+- name: Optimal Learning
+  url: https://pedroguarderas.github.io/spatial_processes/
+  status: Under development
+  description: This project started from simple notes, today I am migrating the whole
+    lectures to be deployed as a Quarto book.
+    
+- name: Mathematics of Field Theory
+  url: https://pedroguarderas.github.io/mathematics_field_theory/
+  status: Under development, OCR translating and improving my handwritten notes.
+  description: These notes are based on the outstanding course “NCCR SwissMAP Master Class in 
+    Geometry, Topology and Physics” delivered by Anton Alekseev. This subject has long been a personal 
+    passion of mine, and I decided to develop these lectures because I believe the concepts and ideas
+    presented are exceptional. To my knowledge, there is no comparable book or lecture series that 
+    integrates these topics in such a unified and comprehensive manner.
+    
 - name: Spatial Processes
   url: https://pedroguarderas.github.io/spatial_processes/
   status: Under development

@@ -1,7 +1,7 @@
 - name: mau
   url: https://github.com/pedroguarderas/mau
-  description: An R package for design and test of multi-criteria decision models employing 
-    Multi-Attribute Utility Theory (MAUT).  
+  description: An R package dedicated to the design, implementation, and evaluation of multi-criteria 
+    decision models grounded in Multi-Attribute Utility Theory (MAUT).  
 
 - name: KRIG
   url: https://github.com/pedroguarderas/KRIG
@@ -13,3 +13,16 @@
   description: An R package currently under development, implemented with Rcpp. It will provide 
     different computational finance algorithms. As novelty this package includes a pricing method 
     with n-ary trees. 
+
+- name: QFT
+  url: https://github.com/pedroguarderas/qft
+  description: This section presents selected resources on Maxima and FORM aimed at learning 
+    symbolic computation, focusing on techniques and workflows commonly used in quantum field 
+    theory calculations.
+    
+- name: NIC-19
+  url: https://github.com/Risko-Actuarios-S-A/RiskoNIC19/blob/master/index.md
+  description: Project in continuous development, designed to estimate different mathematical 
+    reserves under the International Accounting Standard 19 (IAS 19), in particular it computes 
+    reserves under several configurations adapted to clients needs. The project Risko NIC19 
+    includes automated reporting employing literate programming with knitr and LaTeX.

@@ -11,5 +11,9 @@ listing:
 <!------------------------------------------------------------------------------------------------->
 # Projects
 
+Over several years, I worked as an actuary, focusing on the development and implementation of 
+mathematical models for the valuation of insurance products and pension funds. Consequently, the 
+projects presented here are directly related to this professional experience.
+
 ::: {#projects style="max-width: 850px;"}
 :::
