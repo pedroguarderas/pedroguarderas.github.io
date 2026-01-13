@@ -6,3 +6,4 @@
 old/
 _site/
 introduction_files/
+**/*.quarto_ipynb
