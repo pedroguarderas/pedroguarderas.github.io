@@ -7,8 +7,7 @@
     project, to process massive information, estimate transition rates, smooth estimated rates, 
     dynamic mortality modeling, macroeconomic modeling and demographic projections. All methods were 
     integrated to estimate mathematical reserves under different scenarios. You will find the 
-    results of theses studies in the following URL 
-    https://www.iess.gob.ec/es/web/guest/estudios-actuariales-2020
+    results of theses studies <a href="https://www.iess.gob.ec/es/web/guest/estudios-actuariales-2020">here</a>.
 
 - from: 2022-09-01
   until: 2022-09-30
@@ -26,6 +25,14 @@
     employing different type of methodologies: Cape-Cod, Chain-Ladder, Credibility Chain-Ladder, 
     Bornhuetter-Ferguson, Mack, distributional, bootstrap and GLMs."
     
+- from: 2020-08
+  until: 2020-12
+  title: Actuarial studies and valuations to assess the financial sustainability and long-term 
+    viability of the funds administered by the National Police Unemployment Service
+  client: SCPN
+  description: Actuarial consulting services for the design and implementation of an actuarial 
+    model to assess technical reserves and solvency for unemployment insurance.
+
 - from: 2019-07-11 
   until: 2020-03-31
   title: Valuation of social security funds
@@ -34,8 +41,9 @@
     for the valuation of reserves and solvency of social security. We designed a collaborative R 
     project, to process massive information, estimate transition rates, smooth estimated rates, 
     dynamic mortality modeling, macroeconomic modeling and demographic projections. All methods were 
-    integrated to estimate mathematical reserves under different scenarios.
-
+    integrated to estimate mathematical reserves under different scenarios. You will find the 
+    results of theses studies <a href="https://www.iess.gob.ec/es/web/guest/estudios-actuariales-2018">here</a>.
+    
 - from: 2019-08 
   until: 2020-03
   title: Valuation of Retirement, Disability and Death
