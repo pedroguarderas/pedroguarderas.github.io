@@ -1,3 +1,9 @@
+- name: Stochastic processes
+  url: https://pedroguarderas.github.io/stochastic_processes/
+  status: Under development
+  description: This project started from simple notes, today I am migrating the whole
+    lectures to be deployed as a Quarto book.
+    
 - name: Optimal Learning
   url: https://pedroguarderas.github.io/optimal_learning/
   status: Under development
